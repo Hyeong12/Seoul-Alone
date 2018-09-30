@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">나혼자서울</string>
+    <string name="비밀번호">비밀번호</string>
+    <string name="휴대폰번호">휴대폰번호</string>
+    <string name="로그인">로그인</string>
+    <string name="가입">가입</string>
+</resources>

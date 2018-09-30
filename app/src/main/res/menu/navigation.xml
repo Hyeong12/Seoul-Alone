@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="홈"
+        android:orderInCategory="0"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="검색"
+        android:orderInCategory="1"
+        app:showAsAction="always"  />
+
+    <item
+        android:id="@+id/action_suda"
+        android:enabled="true"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="수다"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_love"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="좋아요"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="설정"
+        android:orderInCategory="4"
+        app:showAsAction="always" />
+
+</menu>

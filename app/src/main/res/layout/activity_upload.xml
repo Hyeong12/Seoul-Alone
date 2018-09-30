@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="이름"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#a9a9a9"
+            android:hint="내용을 입력해주세요"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="위치정보"/>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/editTextAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#a9a9a9"
+            android:hint="내용을 입력해주세요"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="항목체크"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <RadioButton
+                android:id="@+id/rdoBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="힐링"/>
+
+            <RadioButton
+                android:id="@+id/rdoBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="만화, 북카페"/>
+
+            <RadioButton
+                android:id="@+id/rdoBtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="산책 및 도보(공원)"/>
+
+            <RadioButton
+                android:id="@+id/rdoBtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="특색마을"/>
+
+            <RadioButton
+                android:id="@+id/rdoBtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="혼밥/혼술"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="사진"/>
+            <ImageView
+                android:id="@+id/imgBtn"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_black_24dp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="내용입력"/>
+        <EditText
+            android:id="@+id/editTextContent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="15dp"
+            android:textColor="#a9a9a9"
+            android:hint="내용을 입력해주세요"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp">
+            <Button
+                android:layout_toLeftOf="@id/btnSave"
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="취소"/>
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="등록"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
